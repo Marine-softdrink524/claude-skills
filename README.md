@@ -67,38 +67,61 @@ metadata:
 
 ### 💻 Coding & Development
 
-| Skill | Description | Author |
-|---|---|---|
-| [senior-python-developer](./skills/senior-python-developer/) | Expert Python coding with type hints, async, testing & clean architecture | [skillsdirectory](https://github.com/skillsdirectory) |
-| [nextjs-expert](./skills/nextjs-expert/) | Next.js 14+ App Router, RSC, Server Actions, TypeScript | [skillsdirectory](https://github.com/skillsdirectory) |
-| [code-reviewer](./skills/code-reviewer/) | Thorough code reviews for bugs, security & performance | [skillsdirectory](https://github.com/skillsdirectory) |
+| Skill | Description | Author | License |
+|---|---|---|---|
+| [senior-python-developer](./skills/senior-python-developer/) | Expert Python coding with type hints, async, testing & clean architecture | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
+| [nextjs-expert](./skills/nextjs-expert/) | Next.js 14+ App Router, RSC, Server Actions, TypeScript | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
+| [code-reviewer](./skills/code-reviewer/) | Thorough code reviews for bugs, security & performance | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
+| [sql-query-expert](./skills/sql-query-expert/) | Optimized SQL with CTEs, window functions & performance tuning | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
+
+### 🤖 AI Engineering *(sourced from Anthropic — MIT License)*
+
+| Skill | Description | Author | License |
+|---|---|---|---|
+| [rag-specialist](./skills/rag-specialist/) | RAG pipelines with vector DBs, embeddings & grounded responses | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
+| [tool-use-architect](./skills/tool-use-architect/) | Design tool-calling patterns with error handling & orchestration | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
+| [prompt-engineer](./skills/prompt-engineer/) | Master prompt design with CoT, few-shot, classification & caching | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
+| [content-moderator](./skills/content-moderator/) | AI content moderation with severity scoring & policy enforcement | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
 
 ### ✍️ Writing & Content
 
-| Skill | Description | Author |
-|---|---|---|
-| [seo-blog-writer](./skills/seo-blog-writer/) | SEO-optimized blog posts with keyword strategy & structure | [skillsdirectory](https://github.com/skillsdirectory) |
-| [technical-writer](./skills/technical-writer/) | Clear technical docs with API references & tutorials | [skillsdirectory](https://github.com/skillsdirectory) |
+| Skill | Description | Author | License |
+|---|---|---|---|
+| [seo-blog-writer](./skills/seo-blog-writer/) | SEO-optimized blog posts with keyword strategy & structure | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
+| [technical-writer](./skills/technical-writer/) | Clear technical docs with API references & tutorials | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
 
-### 📊 Business & Strategy
+### 📊 Business & Finance
 
-| Skill | Description | Author |
-|---|---|---|
-| [business-plan-writer](./skills/business-plan-writer/) | Investor-ready business plans with financial projections | [skillsdirectory](https://github.com/skillsdirectory) |
-| [market-research-analyst](./skills/market-research-analyst/) | Deep market analysis with competitor insights & TAM sizing | [skillsdirectory](https://github.com/skillsdirectory) |
+| Skill | Description | Author | License |
+|---|---|---|---|
+| [business-plan-writer](./skills/business-plan-writer/) | Investor-ready business plans with financial projections | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
+| [market-research-analyst](./skills/market-research-analyst/) | Deep market analysis with competitor insights & TAM sizing | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
+| [financial-data-analyst](./skills/financial-data-analyst/) | Financial data analysis with metrics, trends & visualizations | [Anthropic](https://github.com/anthropics/claude-quickstarts) | MIT |
+
+### 📈 Data & Visualization
+
+| Skill | Description | Author | License |
+|---|---|---|---|
+| [data-visualizer](./skills/data-visualizer/) | Choose the right charts, colors & layouts for data storytelling | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
 
 ### 🎨 Design & UX
 
-| Skill | Description | Author |
-|---|---|---|
-| [ui-ux-advisor](./skills/ui-ux-advisor/) | Design feedback with accessibility, usability & modern patterns | [skillsdirectory](https://github.com/skillsdirectory) |
+| Skill | Description | Author | License |
+|---|---|---|---|
+| [ui-ux-advisor](./skills/ui-ux-advisor/) | Design feedback with accessibility, usability & modern patterns | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
 
 ### 🛡️ DevOps & Security
 
-| Skill | Description | Author |
-|---|---|---|
-| [devops-engineer](./skills/devops-engineer/) | Docker, K8s, CI/CD pipelines & cloud infrastructure | [skillsdirectory](https://github.com/skillsdirectory) |
-| [security-auditor](./skills/security-auditor/) | OWASP Top 10 analysis, vulnerability scanning & remediation | [skillsdirectory](https://github.com/skillsdirectory) |
+| Skill | Description | Author | License |
+|---|---|---|---|
+| [devops-engineer](./skills/devops-engineer/) | Docker, K8s, CI/CD pipelines & cloud infrastructure | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
+| [security-auditor](./skills/security-auditor/) | OWASP Top 10 analysis, vulnerability scanning & remediation | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
+
+### 💬 Support
+
+| Skill | Description | Author | License |
+|---|---|---|---|
+| [customer-support-agent](./skills/customer-support-agent/) | AI customer support with ticket routing & empathetic responses | [Anthropic](https://github.com/anthropics/claude-quickstarts) | MIT |
 
 ---
 
@@ -128,8 +151,10 @@ Use the Skills API to attach skills to your conversations programmatically.
 
 | Metric | Count |
 |---|---|
-| Total Skills | 10 |
-| Categories | 5 |
+| Total Skills | 17 |
+| Categories | 8 |
+| Original (CC0-1.0) | 10 |
+| Anthropic-sourced (MIT) | 7 |
 | Format | Agent Skills Standard (SKILL.md) |
 | Spec | [agentskills.io](https://agentskills.io) |
 
@@ -190,7 +215,12 @@ metadata:
 
 ## 📄 License
 
-All community skills in this repository are licensed under [CC0 1.0 Universal](LICENSE) — free to use, modify, and share.
+This repository contains skills under **two licenses**:
+
+- **Original skills** (by skillsdirectory) → [CC0 1.0 Universal](LICENSE) — free to use, modify, and share
+- **Anthropic-sourced skills** → [MIT License](https://opensource.org/licenses/MIT) — requires attribution to Anthropic, PBC
+
+> ℹ️ Skills sourced from Anthropic's open-source repositories are clearly marked with `license: MIT` in their SKILL.md frontmatter and include a `LICENSE.txt` file with the original MIT license and source attribution.
 
 ---
 
@@ -201,7 +231,8 @@ All community skills in this repository are licensed under [CC0 1.0 Universal](L
 > - This repository is **NOT** affiliated with, endorsed by, sponsored by, or associated with **Anthropic, PBC** or any of its products, including Claude, Claude Code, or Claude API.
 > - **"Claude"** and **"Anthropic"** are trademarks of **Anthropic, PBC**. Use of these names in this repository is solely for the purpose of describing compatibility and is considered nominative fair use.
 > - The **Agent Skills Standard** and **agentskills.io** specification is an open standard. This repository implements that standard independently.
-> - All skills in this repository are **original community contributions** licensed under CC0 1.0. They are not derived from or copies of Anthropic's proprietary or official skills.
+> - Some skills in this repository are **adapted from Anthropic's open-source projects** ([claude-cookbooks](https://github.com/anthropics/anthropic-cookbook), [claude-quickstarts](https://github.com/anthropics/claude-quickstarts)) under the **MIT License**. Original authors are credited in each skill's SKILL.md frontmatter and LICENSE.txt file.
+> - Original community skills are licensed under **CC0 1.0**. Anthropic-sourced skills retain their **MIT License**.
 > - References to any third-party products, services, or companies (including but not limited to Anthropic, OpenAI, Google, Microsoft, Cursor, Windsurf, GitHub Copilot, VS Code) are for **informational and compatibility purposes only** and do not imply any affiliation, endorsement, or sponsorship.
 > - This repository and its maintainers make **no warranties** regarding the quality, accuracy, or fitness of any skills listed herein. Use at your own risk.
 > - **Individual contributors** are responsible for the content they submit. Maintainers review submissions but do not guarantee their correctness.
