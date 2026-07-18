@@ -26,7 +26,7 @@ Use this skill when a user needs structured X/Twitter data, analytics, monitorin
 Install the public package or use the source skill directly:
 
 ```bash
-npx -y skills@1.5.10 add Xquik-dev/x-twitter-scraper
+npx -y skills@1.5.19 add Xquik-dev/x-twitter-scraper
 ```
 
 For API and MCP workflows, use an Xquik API key and the public setup docs:
